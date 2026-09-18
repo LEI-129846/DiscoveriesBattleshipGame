@@ -31,3 +31,10 @@ Grupo GrupoTP05_LEI-6
 
 ## Regras do Jogo 
 ## Links
+
+* **[Galeão](https://pt.wikipedia.org/wiki/Gale%C3%A3o)**: O maior navio da frota, ocupando 5 quadrados na grelha. Eram embarcações fortemente armadas usadas para guerra e comércio.
+* **[Fragata](https://pt.wikipedia.org/wiki/Fragata)**: Navio de guerra rápido que ocupa 4 quadrados.
+* **[Nau](https://pt.wikipedia.org/wiki/Nau)**: Embarcação de grande porte que ocupa 3 quadrados, fundamental nas antigas carreiras da Índia.
+* **[Caravela](https://pt.wikipedia.org/wiki/Caravela)**: Ocupa 2 quadrados. Um navio rápido e de fácil manobra (famoso pelas velas latinas), ideal para as viagens de exploração costeira.
+* **[Barca](https://pt.wikipedia.org/wiki/Barca)**: O navio de menor dimensão, ocupando apenas 1 quadrado, utilizado sobretudo para navegação costeira ou em águas rasas.
+
