@@ -20,5 +20,14 @@ Grupo GrupoTP05_LEI-6
 | Engenharia Informática | 131589 | Gonçalo Gonçalves |
 
 ## Tipos de Navios 
+
+| Batalha Naval | Descobrimentos | English |
+|---|---|---|
+| Porta-aviões | Galeão | Galleon |
+| Navio de 4 canhões | Fragata | Frigate |
+| Navio de 3 canhões | Nau | Carrack |
+| Navio de 2 canhões | Caravela | Caravel |
+| Submarino | Barca | Barge |
+
 ## Regras do Jogo 
 ## Links
