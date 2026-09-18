@@ -10,7 +10,7 @@ Basic academic version of Battleship game to build upon.
 - [Links](#links)
 
 ## Membros do Grupo 
-Grupo GrupoTP05_LEI-6
+Grupo TP05_LEI-6
 
 | Curso | Número | Nome |
 |---|---:|---|
