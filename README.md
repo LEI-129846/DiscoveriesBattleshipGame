@@ -21,13 +21,13 @@ Grupo GrupoTP05_LEI-6
 
 ## Tipos de Navios 
 
-| Batalha Naval | Descobrimentos | English |
-|---|---|---|
-| Porta-aviões | Galeão | Galleon |
-| Navio de 4 canhões | Fragata | Frigate |
-| Navio de 3 canhões | Nau | Carrack |
-| Navio de 2 canhões | Caravela | Caravel |
-| Submarino | Barca | Barge |
+| Batalha Naval | Descobrimentos | English | Dimensão | #Navios |
+|---|---|---|---|---|
+| Porta-aviões | Galeão | Galleon | 5 | 1 |
+| Navio de 4 canhões | Fragata | Frigate | 4 | 1 |
+| Navio de 3 canhões | Nau | Carrack | 3 | 2 |
+| Navio de 2 canhões | Caravela | Caravel | 2 | 3 |
+| Submarino | Barca | Barge | 1 | 4 |
 
 ## Regras do Jogo 
 ## Links
