@@ -29,6 +29,9 @@ Grupo TP05_LEI-6
 | Navio de 2 canhões | Caravela | Caravel | 2 | 3 |
 | Submarino | Barca | Barge | 1 | 4 |
 
+
+Este projeto adapta as regras tradicionais da Batalha Naval a um cenário histórico baseado nos Descobrimentos. O jogo exige o posicionamento tático de uma frota de 11 navios, tanto de grande porte como é o caso Galeão como de menor dimensão, que ocupam um espaço no tabuleiro de jogo. O objetivo final mantém-se inalterável, consistindo em localizar e destruir a frota do oponente para garantir a vitória.
+
 ## Regras do Jogo
 Cada jogador começa por construir **duas grelhas quadriculadas iguais de 10 × 10 quadrados**. Uma das grelhas representa **o seu mar**, enquanto a outra representa **o mar do adversário**. De seguida, cada jogador deverá **posicionar os seus navios na sua própria grelha**, sem que o adversário os veja. Os navios podem ser colocados **na horizontal ou na vertical**. O número de navios é **igual para cada jogador**. Os navios devem ser posicionados de forma a que **não possam tocar-se entre si**, nem horizontalmente, verticalmente ou diagonalmente. No entanto, **podem estar encostados às bordas da grelha**. Durante o jogo, os jogadores jogam **alternadamente**, tentando atingir os navios do adversário através da indicação de uma posição da grelha. O jogador deve indicar uma **linha e uma coluna**, correspondentes à posição que pretende atacar. Se a posição indicada corresponder a uma casa ocupada por um navio, o ataque é considerado **um acerto**. Caso contrário, é considerado **um tiro na água**. Um navio é considerado **afundado quando todas as casas que ocupa tiverem sido atingidas**. O jogo termina quando **um dos jogadores conseguir afundar todos os navios do adversário**. Esse jogador é declarado vencedor.
 
