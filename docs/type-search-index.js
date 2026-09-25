@@ -1,1 +1,1 @@
-typeSearchIndex = [{"l":"All Classes and Interfaces","u":"allclasses-index.html"},{"p":"iscteiul.ista.battleship","l":"Carrack"},{"p":"iscteiul.ista.battleship","l":"Fleet"}];updateSearchResults();
+typeSearchIndex = [{"l":"All Classes and Interfaces","u":"allclasses-index.html"},{"p":"iscteiul.ista.battleship","l":"Barge"},{"p":"iscteiul.ista.battleship","l":"Caravel"}];updateSearchResults();
