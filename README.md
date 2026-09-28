@@ -1,7 +1,5 @@
 # Battleship
 
-Basic academic version of Battleship game to build upon.
-
 ## Índice
 
 - [Membros do Grupo](#membros-do-grupo )
