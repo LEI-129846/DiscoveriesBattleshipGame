@@ -41,3 +41,9 @@ Cada jogador começa por construir **duas grelhas quadriculadas iguais de 10 × 
 * **[Caravela](https://pt.wikipedia.org/wiki/Caravela)**: Ocupa 2 quadrados. Um navio rápido e de fácil manobra (famoso pelas velas latinas), ideal para as viagens de exploração costeira.
 * **[Barca](https://pt.wikipedia.org/wiki/Barca)**: O navio de menor dimensão, ocupando apenas 1 quadrado, utilizado sobretudo para navegação costeira ou em águas rasas.
 
+## Resposta à pergunta 6 do subcapítulo E
+
+- **Como assumir a User Story:** Para me atribuir uma tarefa após a reunião diária de Scrum, devo aceder à secção Assignees na barra lateral direita e clicar em assign yourself. Caso a equipa esteja a usar um quadro (Projects), devo também mover este Issue para a coluna In Progress.
+- **Como indicar que já foi implementada:** A forma correta é associar este Issue ao Pull Request da funcionalidade. Para isso, coloco uma palavra-chave na descrição do PR (por exemplo, Closes #numero_do_issue ou Resolves #numero_do_issue). Quando o PR for aprovado e feito o merge, o GitHub fecha este Issue automaticamente.
+- **O que fazer se o Product Owner desistir da User Story:** O Issue não deve ser apagado. O procedimento correto é clicar na seta ao lado do botão de fechar no final desta página e selecionar a opção Close as not planned, adicionando um breve comentário a documentar o motivo da decisão do Product Owner.
+
