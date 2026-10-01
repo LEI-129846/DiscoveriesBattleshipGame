@@ -33,7 +33,7 @@ public class Position implements IPosition {
      * Devolve a linha em que esta posição se encontra.
      *
      * @return A linha da posição.
-     * @see battleship.IPosition#getRow()
+     * @see IPosition#getRow()
      */
     @Override
     public int getRow() {
@@ -44,7 +44,7 @@ public class Position implements IPosition {
      * Devolve a coluna em que esta posição se encontra.
      *
      * @return A coluna da posição.
-     * @see battleship.IPosition#getColumn()
+     * @see IPosition#getColumn()
      */
     @Override
     public int getColumn() {
@@ -68,7 +68,7 @@ public class Position implements IPosition {
      *
      * @param otherPosition O objeto a ser comparado com a posição atual.
      * @return true se tiverem a mesma linha e coluna, false caso contrário.
-     * @see battleship.IPosition#equals(java.lang.Object)
+     * @see IPosition#equals(java.lang.Object)
      */
     @Override
     public boolean equals(Object otherPosition) {
@@ -87,7 +87,7 @@ public class Position implements IPosition {
      *
      * @param other A outra posição a ser verificada.
      * @return true se a posição fornecida for adjacente, false caso contrário.
-     * @see battleship.IPosition#isAdjacentTo(battleship.IPosition)
+     * @see IPosition#isAdjacentTo(IPosition)
      */
     @Override
     public boolean isAdjacentTo(IPosition other) {
@@ -97,7 +97,7 @@ public class Position implements IPosition {
     /**
      * Marca a posição atual como estando ocupada por um navio (altera isOccupied para true).
      *
-     * @see battleship.IPosition#occupy()
+     * @see IPosition#occupy()
      */
     @Override
     public void occupy() {
@@ -107,7 +107,7 @@ public class Position implements IPosition {
     /**
      * Marca a posição atual como tendo sido atingida por um tiro (altera isHit para true).
      *
-     * @see battleship.IPosition#shoot()
+     * @see IPosition#shoot()
      */
     @Override
     public void shoot() {
@@ -118,7 +118,7 @@ public class Position implements IPosition {
      * Verifica o estado de ocupação da posição.
      *
      * @return true se a posição possuir um navio, false caso contrário.
-     * @see battleship.IPosition#isOccupied()
+     * @see IPosition#isOccupied()
      */
     @Override
     public boolean isOccupied() {
@@ -129,7 +129,7 @@ public class Position implements IPosition {
      * Verifica se a posição já foi atingida por um tiro.
      *
      * @return true se já foi disparada, false caso contrário.
-     * @see battleship.IPosition#isHit()
+     * @see IPosition#isHit()
      */
     @Override
     public boolean isHit() {

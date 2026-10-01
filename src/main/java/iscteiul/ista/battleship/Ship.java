@@ -79,7 +79,7 @@ public abstract class Ship implements IShip {
      * Devolve a categoria à qual o navio pertence.
      *
      * @return O nome do tipo de navio.
-     * @see battleship.IShip#getCategory()
+     * @see IShip#getCategory()
      */
     @Override
     public String getCategory() {
@@ -99,7 +99,7 @@ public abstract class Ship implements IShip {
      * Devolve a posição inicial ou de referência deste navio.
      *
      * @return O objeto IPosition associado à criação do navio.
-     * @see battleship.IShip#getPosition()
+     * @see IShip#getPosition()
      */
     @Override
     public IPosition getPosition() {
@@ -110,7 +110,7 @@ public abstract class Ship implements IShip {
      * Devolve a orientação (ponto cardeal) em que o navio se encontra.
      *
      * @return Um objeto Compass representando a orientação do navio.
-     * @see battleship.IShip#getBearing()
+     * @see IShip#getBearing()
      */
     @Override
     public Compass getBearing() {
@@ -121,7 +121,7 @@ public abstract class Ship implements IShip {
      * Verifica se o navio ainda está a flutuar. Um navio flutua se tiver pelo menos uma posição que não foi atingida.
      *
      * @return true se o navio ainda tiver partes intactas, false se estiver totalmente afundado.
-     * @see battleship.IShip#stillFloating()
+     * @see IShip#stillFloating()
      */
     @Override
     public boolean stillFloating() {
@@ -135,7 +135,7 @@ public abstract class Ship implements IShip {
      * Calcula e devolve o valor de linha mais alto (menor valor numérico de linha) que o navio ocupa.
      *
      * @return O número inteiro correspondente à linha mais ao topo.
-     * @see battleship.IShip#getTopMostPos()
+     * @see IShip#getTopMostPos()
      */
     @Override
     public int getTopMostPos() {
@@ -150,7 +150,7 @@ public abstract class Ship implements IShip {
      * Calcula e devolve o valor de linha mais baixo (maior valor numérico de linha) que o navio ocupa.
      *
      * @return O número inteiro correspondente à linha mais ao fundo.
-     * @see battleship.IShip#getBottomMostPos()
+     * @see IShip#getBottomMostPos()
      */
     @Override
     public int getBottomMostPos() {
@@ -165,7 +165,7 @@ public abstract class Ship implements IShip {
      * Calcula e devolve o valor de coluna mais à esquerda (menor valor numérico de coluna) que o navio ocupa.
      *
      * @return O número inteiro correspondente à coluna mais à esquerda.
-     * @see battleship.IShip#getLeftMostPos()
+     * @see IShip#getLeftMostPos()
      */
     @Override
     public int getLeftMostPos() {
@@ -180,7 +180,7 @@ public abstract class Ship implements IShip {
      * Calcula e devolve o valor de coluna mais à direita (maior valor numérico de coluna) que o navio ocupa.
      *
      * @return O número inteiro correspondente à coluna mais à direita.
-     * @see battleship.IShip#getRightMostPos()
+     * @see IShip#getRightMostPos()
      */
     @Override
     public int getRightMostPos() {
@@ -196,7 +196,7 @@ public abstract class Ship implements IShip {
      *
      * @param pos A posição a ser verificada.
      * @return true se o navio estiver na referida posição, false caso contrário.
-     * @see battleship.IShip#occupies(battleship.IPosition)
+     * @see IShip#occupies(IPosition)
      */
     @Override
     public boolean occupies(IPosition pos) {
@@ -213,7 +213,7 @@ public abstract class Ship implements IShip {
      *
      * @param other O outro navio a comparar.
      * @return true se estiver demasiado próximo, false caso haja distância de segurança.
-     * @see battleship.IShip#tooCloseTo(battleship.IShip)
+     * @see IShip#tooCloseTo(IShip)
      */
     @Override
     public boolean tooCloseTo(IShip other) {
@@ -232,7 +232,7 @@ public abstract class Ship implements IShip {
      *
      * @param pos A posição a verificar.
      * @return true se alguma parte do navio estiver adjacente à posição dada, false caso contrário.
-     * @see battleship.IShip#tooCloseTo(battleship.IPosition)
+     * @see IShip#tooCloseTo(IPosition)
      */
     @Override
     public boolean tooCloseTo(IPosition pos) {
@@ -247,7 +247,7 @@ public abstract class Ship implements IShip {
      * Aplica um disparo a uma das posições ocupadas pelo navio, marcando-a como atingida (hit).
      *
      * @param pos A posição onde ocorreu o disparo.
-     * @see battleship.IShip#shoot(battleship.IPosition)
+     * @see IShip#shoot(IPosition)
      */
     @Override
     public void shoot(IPosition pos) {

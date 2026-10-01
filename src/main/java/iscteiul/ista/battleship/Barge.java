@@ -1,7 +1,6 @@
 package iscteiul.ista.battleship;
 /**
  * Representa uma barca no jogo Batalha Naval.
- * <p>
  * Uma barca é um navio que ocupa uma única posição na grelha.
  */
 public class Barge extends Ship {

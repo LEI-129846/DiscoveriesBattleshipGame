@@ -1,7 +1,6 @@
 package iscteiul.ista.battleship;
 /**
  * Representa uma caravela no jogo Batalha Naval.
- * <p>
  * Uma caravela é um navio que ocupa duas posições consecutivas na grelha.
  * A sua posição depende da orientação: as orientações norte e sul colocam
  * as posições na vertical, enquanto as orientações este e oeste colocam
@@ -14,7 +13,6 @@ public class Caravel extends Ship {
 
     /**
      * Cria uma nova caravela com a orientação e a posição inicial especificadas.
-     * <p>
      * A caravela ocupa duas posições consecutivas de acordo com a sua orientação.
      *
      * @param bearing orientação da caravela

@@ -18,7 +18,7 @@ public class Tasks {
     private static final String GOODBYE_MESSAGE = "Bons ventos!";
 
     /**
-     * Strings utilizadas para interpretar os comandos do utilizador na consola[cite: 3].
+     * Strings utilizadas para interpretar os comandos do utilizador na consola.
      */
     private static final String NOVAFROTA = "nova";
     private static final String DESISTIR = "desisto";
@@ -37,7 +37,7 @@ public class Tasks {
 
     /**
      * Esta tarefa testa a construção dos navios: Para cada navio, lê posições da consola e
-     * indica se o navio ocupa ou não cada uma dessas posições[cite: 3].
+     * indica se o navio ocupa ou não cada uma dessas posições.
      */
     public static void taskA() {
         Scanner in = new Scanner(System.in);
@@ -52,7 +52,7 @@ public class Tasks {
     }
 
     /**
-     * Esta tarefa testa a construção e montagem de uma frota através de comandos introduzidos pelo utilizador[cite: 3].
+     * Esta tarefa testa a construção e montagem de uma frota através de comandos introduzidos pelo utilizador.
      */
     public static void taskB() {
         Scanner in = new Scanner(System.in);
@@ -78,7 +78,7 @@ public class Tasks {
 
     /**
      * Esta tarefa testa a construção de frotas e introduz a possibilidade de fazer "batota",
-     * ou seja, ver o mapa e a localização dos navios[cite: 3].
+     * ou seja, ver o mapa e a localização dos navios.
      */
     public static void taskC() {
         Scanner in = new Scanner(System.in);
@@ -107,7 +107,7 @@ public class Tasks {
 
     /**
      * Esta tarefa testa todos os elementos anteriores em conjunto com a mecânica de combate,
-     * suportando rondas de disparos e a contagem de navios restantes[cite: 3].
+     * suportando rondas de disparos e a contagem de navios restantes.
      */
     public static void taskD() {
 
@@ -152,10 +152,10 @@ public class Tasks {
     }
 
     /**
-     * Esta operação permite a construção de uma frota a partir dos dados do utilizador[cite: 3].
+     * Esta operação permite a construção de uma frota a partir dos dados do utilizador.
      *
-     * @param in O Scanner usado para ler a entrada de dados[cite: 3].
-     * @return A frota (Fleet) que foi construída após leitura das entradas[cite: 3].
+     * @param in O Scanner usado para ler a entrada de dados.
+     * @return A frota (Fleet) que foi construída após leitura das entradas.
      */
     static Fleet buildFleet(Scanner in) {
         assert in != null;
@@ -180,10 +180,10 @@ public class Tasks {
     }
 
     /**
-     * Esta operação lê dados relativos a um navio, constrói o objeto correspondente e devolve-o[cite: 3].
+     * Esta operação lê dados relativos a um navio, constrói o objeto correspondente e devolve-o.
      *
-     * @param in O Scanner usado para ler as informações do navio (tipo, posição e orientação)[cite: 3].
-     * @return O navio construído com base nos dados fornecidos pelo utilizador[cite: 3].
+     * @param in O Scanner usado para ler as informações do navio (tipo, posição e orientação).
+     * @return O navio construído com base nos dados fornecidos pelo utilizador.
      */
     static Ship readShip(Scanner in) {
         String shipKind = in.next();
@@ -194,10 +194,10 @@ public class Tasks {
     }
 
     /**
-     * Esta operação permite a leitura de uma posição ou coordenada no mapa[cite: 3].
+     * Esta operação permite a leitura de uma posição ou coordenada no mapa.
      *
-     * @param in O Scanner usado para ler os valores inteiros da linha e da coluna[cite: 3].
-     * @return A posição instanciada com os valores lidos[cite: 3].
+     * @param in O Scanner usado para ler os valores inteiros da linha e da coluna.
+     * @return A posição instanciada com os valores lidos.
      */
     static Position readPosition(Scanner in) {
         int row = in.nextInt();
@@ -207,10 +207,10 @@ public class Tasks {
 
     /**
      * Esta operação permite disparar uma ronda de tiros (três disparos) sobre a frota,
-     * dentro do contexto do jogo em curso[cite: 3].
+     * dentro do contexto do jogo em curso.
      *
-     * @param in   O Scanner usado para ler as posições onde o jogador pretende disparar[cite: 3].
-     * @param game O objeto do jogo atual que irá sofrer e processar os ataques[cite: 3].
+     * @param in   O Scanner usado para ler as posições onde o jogador pretende disparar.
+     * @param game O objeto do jogo atual que irá sofrer e processar os ataques.
      */
     static void firingRound(Scanner in, IGame game) {
         for (int i = 0; i < NUMBER_SHOTS; i++) {

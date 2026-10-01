@@ -48,7 +48,7 @@ public class Fleet implements IFleet {
      * @param s O navio a ser adicionado à frota.
      * @return devolve true se o navio foi adicionado com sucesso, false caso contrário.
      *
-     * @see battleship.IFleet#addShip(battleship.IShip)
+     * @see IFleet#addShip(IShip)
      */
     @Override
     public boolean addShip(IShip s) {
@@ -66,7 +66,7 @@ public class Fleet implements IFleet {
      * @param category A categoria do navio a pesquisar
      * @return Devolve uma lista contendo os navios da categoria solicitada.
      *
-     * @see battleship.IFleet#getShipsLike(java.lang.String)
+     * @see IFleet#getShipsLike(java.lang.String)
      */
     @Override
     public List<IShip> getShipsLike(String category) {
@@ -82,7 +82,7 @@ public class Fleet implements IFleet {
      * Devolve todos os navios da frota que ainda têm pelo menos uma posição intacta.
      * @return Devolve uma lista com os navios que ainda não foram totalmente afundados.
      *
-     * @see battleship.IFleet#getFloatingShips()
+     * @see IFleet#getFloatingShips()
      */
     @Override
     public List<IShip> getFloatingShips() {
@@ -100,7 +100,7 @@ public class Fleet implements IFleet {
      * @param pos A posição (coordenada) do tabuleiro a verificar.
      * @return O navio que ocupa a posição fornecida, ou null se a posição estiver livre.
      *
-     * @see battleship.IFleet#shipAt(battleship.IPosition)
+     * @see IFleet#shipAt(IPosition)
      */
     @Override
     public IShip shipAt(IPosition pos) {

@@ -36,7 +36,7 @@ public class Carrack extends Ship {
      * Obtém a dimensão total em quadrículas que esta embarcação ocupa na grelha.
      *
      * @return devolve o número de posições ocupadas pelo navio, no caso do Carrack devolve 3.
-     * @see battleship.Ship#getSize()
+     * @see Ship#getSize()
      */
     @Override
     public Integer getSize() {
