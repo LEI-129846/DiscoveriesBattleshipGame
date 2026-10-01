@@ -1,17 +1,30 @@
-/**
- *
- */
 package iscteiul.ista.battleship;
-
+/**
+ * Representa uma caravela no jogo Batalha Naval.
+ * <p>
+ * Uma caravela é um navio que ocupa duas posições consecutivas na grelha.
+ * A sua posição depende da orientação: as orientações norte e sul colocam
+ * as posições na vertical, enquanto as orientações este e oeste colocam
+ * as posições na horizontal.
+ */
 public class Caravel extends Ship {
+
     private static final Integer SIZE = 2;
     private static final String NAME = "Caravela";
 
     /**
-     * @param bearing the bearing where the Caravel heads to
-     * @param pos     initial point for positioning the Caravel
+     * Cria uma nova caravela com a orientação e a posição inicial especificadas.
+     * <p>
+     * A caravela ocupa duas posições consecutivas de acordo com a sua orientação.
+     *
+     * @param bearing orientação da caravela
+     * @param pos     posição inicial da caravela
+     * @throws NullPointerException se a orientação for {@code null}
+     * @throws IllegalArgumentException se a orientação for inválida
      */
-    public Caravel(Compass bearing, IPosition pos) throws NullPointerException, IllegalArgumentException {
+    public Caravel(Compass bearing, IPosition pos)
+            throws NullPointerException, IllegalArgumentException {
+
         super(Caravel.NAME, bearing, pos);
 
         if (bearing == null)
@@ -21,27 +34,33 @@ public class Caravel extends Ship {
             case NORTH:
             case SOUTH:
                 for (int r = 0; r < SIZE; r++)
-                    getPositions().add(new Position(pos.getRow() + r, pos.getColumn()));
+                    getPositions().add(
+                            new Position(pos.getRow() + r, pos.getColumn())
+                    );
                 break;
+
             case EAST:
             case WEST:
                 for (int c = 0; c < SIZE; c++)
-                    getPositions().add(new Position(pos.getRow(), pos.getColumn() + c));
+                    getPositions().add(
+                            new Position(pos.getRow(), pos.getColumn() + c)
+                    );
                 break;
-            default:
-                throw new IllegalArgumentException("ERROR! invalid bearing for the caravel");
-        }
 
+            default:
+                throw new IllegalArgumentException(
+                        "ERROR! invalid bearing for the caravel"
+                );
+        }
     }
 
-    /*
-     * (non-Javadoc)
+    /**
+     * Devolve o tamanho da caravela.
      *
-     * @see battleship.Ship#getSize()
+     * @return tamanho da caravela
      */
     @Override
     public Integer getSize() {
         return SIZE;
     }
-
 }
