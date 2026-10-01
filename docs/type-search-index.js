@@ -1,1 +1,1 @@
-typeSearchIndex = [{"l":"All Classes and Interfaces","u":"allclasses-index.html"},{"p":"iscteiul.ista.battleship","l":"Position"},{"p":"iscteiul.ista.battleship","l":"Ship"},{"p":"iscteiul.ista.battleship","l":"Tasks"}];updateSearchResults();
+typeSearchIndex = [{"l":"All Classes and Interfaces","u":"allclasses-index.html","k":"18"},{"p":"iscteiul.ista.battleship","l":"Frigate"},{"p":"iscteiul.ista.battleship","l":"Galleon"},{"p":"iscteiul.ista.battleship","l":"Game"}];updateSearchResults();
