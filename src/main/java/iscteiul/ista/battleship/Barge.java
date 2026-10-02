@@ -12,6 +12,7 @@ public class Barge extends Ship {
      * @param pos     - upper left position of the barge
      */
     public Barge(Compass bearing, IPosition pos) {
+        // comentário de teste git stash
         super(Barge.NAME, bearing, pos);
         getPositions().add(new Position(pos.getRow(), pos.getColumn()));
     }
